@@ -1,10 +1,9 @@
 /* General body styling */
 body {
-    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     margin: 0;
     padding: 0;
     background-color: #39297b;
-    
 }
 
 /* Container to center content */
@@ -12,15 +11,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-
-    
-  
 }
-h1{
+
+h1 {
     text-align: center;
     color: #838383;
 }
-
 
 /* Search box styling */
 .search-box {
@@ -40,8 +36,8 @@ h1{
     color: #fff;
 }
 
-.search-box input::placeholder{
-color: #fff;
+.search-box input::placeholder {
+    color: #fff;
 }
 
 .search-box button {
@@ -66,6 +62,12 @@ color: #fff;
     margin-top: 20px;
 }
 
+/* Image container for hover effects */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
 .image-gallery img {
     width: 100%;
     height: 200px;
@@ -73,6 +75,28 @@ color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Download button styling */
+.download-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Show the download button on hover */
+.image-container:hover .download-btn {
+    display: block;
+}
+
 #show-more-btn {
     padding: 10px 20px;
     font-size: 16px;
@@ -82,7 +106,7 @@ color: #fff;
     outline: 0;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 34rem;
+    margin: 20px auto;
     display: none;
 }
 
