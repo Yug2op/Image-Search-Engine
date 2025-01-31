@@ -6,11 +6,12 @@ Image-Search-Engine is a simple and sleek image finder application that uses the
 - Search for images by keyword
 - Display high-quality images from Unsplash
 - User-friendly and responsive interface
+- Download button to use it locally
 
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript (or React, if applicable)
+- JavaScript 
 - Unsplash API
 
 
